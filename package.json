@@ -11,7 +11,10 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clevernyyyy/ember-speech-to-text"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -36,13 +39,14 @@
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "ember-try": "^0.2.2",
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-speech-to-text"
   ],
   "dependencies": {
+    "ember-cli-htmlbars": "^1.0.1",
     "ember-cli-babel": "^5.1.6"
   },
   "ember-addon": {
